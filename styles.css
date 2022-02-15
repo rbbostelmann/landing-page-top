@@ -1,0 +1,163 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1f2937;
+    margin: 0;
+}
+
+.main,
+.random-info,
+.quote,
+.call-to-action {
+    padding: 3vh;
+}
+
+.outer-flex-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+footer {
+    background-color: #1f2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+header {
+    padding-left: 1vh;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: auto;
+    margin-right: 2vh;
+}
+
+.right-side {
+    flex: 1;
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 600;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    padding: 5vh;
+    gap: 15vh;
+    background-color: #1f2937;
+}
+
+.main-text>h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.main-text>p {
+    font-size: 18px;
+    color: #E5E7EB;
+    max-width: 60%;
+    text-align: justify;
+    flex: 1;
+}
+
+.large-img-container {
+    width: 100%;
+}
+
+.main-text,
+.large-img-container {
+    padding: 2vh;
+}
+
+.random-info {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+}
+
+.small-img-container {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 1vh;
+    align-content: center;
+    justify-content: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-weight: 200;
+    font-style: italic;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+
+.call-to-action {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 9vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-wrapper {
+    border-radius: 10px;
+    min-width: 50%;
+    background-color: #3882f6;
+    min-width: 500px;
+    min-height: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.cta-wrapper>h4 {
+    color: white;
+}
+
+.cta-wrapper>p {
+    font-size: 15px;
+    font-weight: 200;
+    color: white;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 6px;
+    min-height: 3.5vh;
+    min-width: 10vh;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    border: none;
+}
+
+.sign-up {
+    border: 2px solid white;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    flex: 1;
+    font-size: 10px;
+}
